@@ -1,0 +1,12 @@
+{
+  "name": "EduProject",
+  "charset": [
+    "gbk",
+    "utf-8"
+  ],
+  "port": [
+    80,
+    443
+  ],
+  "json": []
+}

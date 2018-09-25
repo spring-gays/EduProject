@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+    <script type="text/javascript" src="../widgets/template.js"></script>
+</head>
+
+<body>
+    <div id="content">
+    </div>
+    <!-- 编写模板,此模板放在html页面中,模板也可放在js文件中 -->
+    <script id="contentTemplate" type="text/html">
+    <h1>{{title}}</h1>
+    <ul>
+        {{each list}}
+            <li>索引 {{$index + 1}} ：{{$value}}</li>
+        {{/each}}
+    </ul>
+</script>
+    <!-- 渲染模板 -->
+    <script type="text/javascript">
+        var data = {// 准备模板中涉及的数据
+            title: '标签',
+            list: ['文艺', '博客', '摄影', '电影', '民谣', '旅行', '吉他']
+        };
+        var html = template('contentTemplate', data);// 调用template()方法将模板与数据结合进行渲染
+        document.getElementById('content').innerHTML = html;// 将渲染结果写入div
+    </script>
+</body>
+
+</html>
