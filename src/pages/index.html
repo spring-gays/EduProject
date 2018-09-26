@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>精品课程</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
     <!-- <script src="main.js"></script> -->
+    <script src="../widgets/template.js"></script>
 </head>
-<body>
-    test!
-    <div>
-        <!--#include file="test.html"-->
+
+<body style="background: #F6F6F6">
+    <!-- 头部 -->
+    <div id="header-page">
+        <!-- #include file="../mods/header/header.html" -->
     </div>
+    <!-- 首页 -->
+    <div id="main-page">首页</div>
+    <!-- 免费课程 -->
+    <div id="freeClass-page" style="display:none">
+        <!-- #include file="freeClass/freeClass.html" -->
+    </div>
+    <!-- 职业路径 -->
+    <div id="careePath-page" style="display:none">
+        <!-- #include file="careePath/careePath.html" -->
+    </div>
+    <!-- 实战演练 -->
+    <div id="realFight-page" style="display:none">
+        <!-- #include file="realFight/realFight.html" -->
+    </div>
+    <!-- 底部 -->
+    <div id="footer-page">
+        <!-- #include file="../mods/footer/footer.html" -->
+    </div>
+
 </body>
+<script src="../mods/header/header.js"></script>
 </html>

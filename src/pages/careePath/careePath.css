@@ -1,0 +1,327 @@
+*{margin: 0;padding: 0;}
+
+body{
+	background:#F8F8FF;
+	
+}
+/*背景图以及字体样式*/
+/*学习·因陪伴不再孤独*/
+#bk{
+	height: 250px;
+	width: 100%;
+	position: relative;
+}
+#text1{
+	position: absolute;
+	height: 125px;
+	width: 100%;
+	bottom: 62px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+	font-family: "微软雅黑";
+	color: white;
+}
+#bkpic{
+	width:100%;
+	height: 250px;	
+}
+#text2{
+	font-size: medium;
+	font-weight: 500;
+}
+
+
+
+/*六个logo样式*/
+/**/
+#logo{
+	width: 100%;
+	height:110px;
+	background:#F8F8FF;
+	position: relative;
+}
+#box{
+	width:80%;
+	height: 110px;
+	display: table-cell;
+	text-align: center;
+	margin: 0 10% 0 10%;
+	position: absolute;
+}
+#box img{
+	height: 25%;
+	width: 25%;
+}
+#box div{
+	float: left;
+	width: 16.666%;
+}
+#box p{
+	margin: 0 auto;
+}
+
+
+/*实战推荐样式*/
+/**/
+#shizhantuijian{
+	background: url(../../images/white.jpg);
+	height:500px;
+	width: 100%;
+	font-family: "微软雅黑";
+}
+#shizhantuijian p{
+	text-align: center;
+}
+#shizhantuijian p:nth-child(3){
+	font-family: "微软雅黑";
+	font-size: xx-large;
+}
+#shizhantuijian p:nth-child(5){
+	font-family: "微软雅黑";
+	color:dimgray;
+}
+#listbox{
+	width:80%;
+	height: 350px;
+	margin: 0 auto;
+}
+#listbox div{
+	width:25%;
+	height:150px;
+	float: left;
+	position: relative;
+}
+
+#listbox img{
+	width: 90%;
+	height: 150px;
+}
+#list1{
+	top: 3%;
+	left: 1%;
+}
+#list2{
+	top: 3%;
+	left: 1%;
+}
+#list3{
+	top: 3%;
+	left: 1.5%;
+}
+#list4{
+	top: 3%;
+	left: 2%;
+}
+#listbox p{
+	width: 90%;
+	word-break:normal;
+	white-space:pre-wrap;
+	word-wrap:break-word;
+}
+#list1 p:nth-child(3){
+	font-size: small;
+	text-align: left;
+	color: darkgray;
+}
+#list1 span:nth-child(4){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list1 span:nth-child(5){
+	font-size: large;
+	text-align: left;
+	color: blue;
+}
+#list1 span:nth-child(6){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list2 p:nth-child(3){
+	font-size: small;
+	text-align: left;
+	color: darkgray;
+}
+#list2 span:nth-child(4){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list2 span:nth-child(5){
+	font-size: large;
+	text-align: left;
+	color: blue;
+}
+#list2 span:nth-child(6){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list3 p:nth-child(3){
+	font-size: small;
+	text-align: left;
+	color: darkgray;
+}
+#list3 span:nth-child(4){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list3 span:nth-child(5){
+	font-size: large;
+	text-align: left;
+	color: blue;
+}
+#list3 span:nth-child(6){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list4 p:nth-child(3){
+	font-size: small;
+	text-align: left;
+	color: darkgray;
+}
+#list4 span:nth-child(4){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list4 span:nth-child(5){
+	font-size: large;
+	text-align: left;
+	color: blue;
+}
+#list4 span:nth-child(6){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+/*新好上课样式*/
+/**/
+#xinhaoshangke{
+	height:150px;
+	width: 100%;
+	font-family: "微软雅黑";
+}
+#xinhaoshangke p{
+	text-align: center;
+}
+#xinhaoshangke p:nth-child(3){
+	font-family: "微软雅黑";
+	font-size: xx-large;
+}
+#xinhaoshangke p:nth-child(5){
+	font-family: "微软雅黑";
+	color:dimgray;
+}
+#ui{
+	text-align: center;
+	font-size: large;
+}
+#listbox2{
+	width:80%;
+	height: 300px;
+	margin: 0 auto;
+}
+#listbox2 div{
+	width:25%;
+	height:150px;
+	float: left;
+	position: relative;
+}
+
+#listbox2 img{
+	width: 90%;
+	height: 150px;
+}
+#listbox2 p{
+	width: 90%;
+	word-break:normal;
+	white-space:pre-wrap;
+	word-wrap:break-word;
+}
+#list5 p:nth-child(3){
+	font-size: small;
+	text-align: left;
+	color: darkgray;
+}
+#list5 span:nth-child(4){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list5 span:nth-child(5){
+	font-size: large;
+	text-align: left;
+	color: blue;
+}
+#list5 span:nth-child(6){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list6 p:nth-child(3){
+	font-size: small;
+	text-align: left;
+	color: darkgray;
+}
+#list6 span:nth-child(4){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list6 span:nth-child(5){
+	font-size: large;
+	text-align: left;
+	color: blue;
+}
+#list6 span:nth-child(6){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list7 p:nth-child(3){
+	font-size: small;
+	text-align: left;
+	color: darkgray;
+}
+#list7 span:nth-child(4){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list7 span:nth-child(5){
+	font-size: large;
+	text-align: left;
+	color: blue;
+}
+#list7 span:nth-child(6){
+	font-size: small;
+	text-align: left;
+	color: blue;
+}
+#list5{
+	left: 10%;
+}
+#list6{
+	left: 14%;
+}
+#list7{
+	left: 18%;
+}
+#zuhejiaqian{
+	height: 45px;
+	width: 13%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 45px;
+	color:#1e50ae;
+	border: #1e50ae solid 1px;
+	border-top-left-radius: 20px;   
+	border-top-right-radius: 20px; 
+ 	border-bottom-right-radius: 20px;  
+	border-bottom-left-radius: 20px;
+}
