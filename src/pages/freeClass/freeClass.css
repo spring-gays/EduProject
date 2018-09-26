@@ -1,0 +1,575 @@
+@charset "utf-8";
+
+*{
+	margin:0;padding: 0;
+}
+#freeClass-page{
+	min-width:1000px;
+	/* position: relative; */
+}
+#freeClass-page .S3{
+	overflow: hidden;
+	overflow: left;
+	position: relative;
+	
+}
+#freeClass-page .S3 img{
+	width:100%;
+	height:250px;
+}
+#freeClass-page .S3 h3{
+	position: absolute;
+	color:white;
+	top:20%;
+	left:38%;
+	font-size:35px;
+}
+
+#freeClass-page .S3 p{
+	position: absolute;
+	color:white;
+	top:60%;
+	left:35%;
+	font-size:15px;
+}
+
+#freeClass-page #box1{
+	min-width: 1366px;
+	min-height: 768px;
+}
+#freeClass-page .left1{
+	left:5%;
+
+	overflow: left;
+	position: relative;
+	width:274px;
+	height:220px;
+
+	
+}
+
+#freeClass-page .left1 img{
+	width:100%;
+	height:100%
+}
+#freeClass-page .left1 h3{
+	position:absolute;
+	color:white;
+	top:15%;
+	left:5%;
+	font-size: 14px;
+	text-align: left;
+	
+	
+}
+
+#freeClass-page .left1 p{
+	position:absolute;
+	color:white;
+	top:50%;
+	left:5%;
+	font-size: 10px;
+	text-align: left;
+	
+	
+}
+
+#freeClass-page .left1 h4{
+	position:absolute;
+	top:80%;
+	font-size: 10px;
+	text-align: left;
+	left:5%;
+	color:white;
+	
+	
+}
+
+#freeClass-page .left1 h2{
+	position:absolute;
+	top:80%;
+	font-size: 15px;
+	text-align: left;
+	color:white;
+	left:75%;
+
+}
+
+#freeClass-page .left2{
+	left:5%;
+	overflow: left;
+	position: relative;
+	width:274px;
+	height:377px;
+}
+
+#freeClass-page .left2 h1{
+	text-align: left;
+	position: absolute;
+	font-size:13px;
+	top:5%;
+	left:5%;
+	
+}
+#freeClass-page .left2 h6{
+	left:5%;
+	top:20%;
+	position: absolute;
+	font-size:13px;
+}
+
+#freeClass-page .left2 h2{
+	text-align: left;
+	position: absolute;
+	font-size:13px;
+	top:20%;
+	left:75%;
+	
+}
+
+#freeClass-page #xian1{
+	position: absolute;
+	top:27%;
+	text-align: center;
+	left: 5%;;
+}
+
+#freeClass-page .left2 h3{
+	text-align: left;
+	position: absolute;
+	font-size:13px;
+	top:33%;
+	left:5%;
+	
+}
+#freeClass-page .left2 h7{
+	left:5%;
+	top:50%;
+	position: absolute;
+	font-size:13px;
+}
+
+#freeClass-page .left2 h4{
+	left:75%;
+	top:50%;
+	position: absolute;
+	font-size:13px;
+}
+#freeClass-page #xian2{
+	position: absolute;
+	top:58%;
+	text-align: center;
+	left: 5%;
+}
+#freeClass-page .left2 h5{
+	left:5%;
+	top:65%;
+	position: absolute;
+	font-size:13px;
+}
+#freeClass-page .left2 h8{
+	left:5%;
+	top:90%;
+	position: absolute;
+	font-size:13px;
+}
+#freeClass-page .left2 p{
+	left:75%;
+	top:90%;
+	position: absolute;
+	font-size:13px;
+}
+
+#freeClass-page .weui-navbar{
+	display: flex;
+	z-index: 500;
+	width: 600px;
+	top: 390px;
+	left: 30%;
+	position: absolute;
+}
+
+#freeClass-page .weui-navbar__item{
+	position: relative;
+	display: block;
+	-webkit-box-flex:1 ;
+	flex: 1;
+	padding: 13px,0;
+	text-align: center;
+	font-size: 18px;
+	
+}
+#freeClass-page .weui-navbar__item:hover{
+	color: #1e50ae;
+	border-bottom: 2px solid #1E50AE;
+}
+#freeClass-page .left31{
+	position: absolute;
+	top:72.8%;
+	left: 28%;
+	width: 275px;
+	height: 200px;
+}
+#freeClass-page .left31 img{
+	width: 275px;
+	height: 153px;
+	position: relative;
+
+}
+#freeClass-page .left31 h1{
+	font-size: 15px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+
+#freeClass-page .left31 h2{
+	top: 10%;
+	font-size: 10px;
+	position: relative;
+	color: #aaaaaa;
+	
+}
+#freeClass-page .left31 h3{
+	top: 14%;
+	font-size: 20px;
+	position: relative;
+	color: #1e50ae;
+	
+}
+
+#freeClass-page .left32{
+	position: absolute;
+	top:72.8%;
+	left: 52%;
+	width: 275px;
+	height: 200px;
+}
+#freeClass-page .left32 img{
+	width: 275px;
+	height: 153px;
+	position: relative;
+
+}
+#freeClass-page .left32 h1{
+	font-size: 15px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+
+#freeClass-page .left32 h2{
+	top: 10%;
+	font-size: 10px;
+	position: relative;
+	color: #aaaaaa;
+	
+}
+#freeClass-page .left32 h3{
+	top: 14%;
+	font-size: 20px;
+	position: relative;
+	color: #1e50ae;
+	
+}
+
+
+#freeClass-page .left33{
+	position: absolute;
+	top:72.8%;
+	left: 76%;
+	width: 275px;
+	height: 200px;
+}
+#freeClass-page .left33 img{
+	width: 275px;
+	height: 153px;
+	position: relative;
+
+}
+#freeClass-page .left33 h1{
+	font-size: 15px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+
+#freeClass-page .left33 h2{
+	top: 10%;
+	font-size: 10px;
+	position: relative;
+	color: #aaaaaa;
+	
+}
+#freeClass-page .left33 h3{
+	top: 14%;
+	font-size: 20px;
+	position: relative;
+	color: #1e50ae;
+	
+}
+
+#freeClass-page .left41{
+	position: absolute;
+	top:122.8%;
+	left: 28%;
+	width: 275px;
+	height: 200px;
+}
+#freeClass-page .left41 img{
+	width: 275px;
+	height: 153px;
+	position: relative;
+
+}
+#freeClass-page .left41 h1{
+	font-size: 15px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+
+#freeClass-page .left41 h2{
+	top: 10%;
+	font-size: 10px;
+	position: relative;
+	color: #aaaaaa;
+	
+}
+#freeClass-page .left41 h3{
+	top: 14%;
+	font-size: 20px;
+	position: relative;
+	color: #1e50ae;
+	
+}
+
+#freeClass-page .left42{
+	position: absolute;
+	top:122.8%;
+	left: 52%;
+	width: 275px;
+	height: 200px;
+}
+#freeClass-page .left42 img{
+	width: 275px;
+	height: 153px;
+	position: relative;
+
+}
+#freeClass-page .left42 h1{
+	font-size: 15px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+
+#freeClass-page .left42 h2{
+	top: 10%;
+	font-size: 10px;
+	position: relative;
+	color: #aaaaaa;
+	
+}
+#freeClass-page .left42 h3{
+	top: 14%;
+	font-size: 20px;
+	position: relative;
+	color: #1e50ae;
+	
+}
+
+
+#freeClass-page .left43{
+	position: absolute;
+	top:122.8%;
+	left: 76%;
+	width: 275px;
+	height: 200px;
+}
+#freeClass-page .left43 img{
+	width: 275px;
+	height: 153px;
+	position: relative;
+
+}
+#freeClass-page .left43 h1{
+	font-size: 15px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+
+#freeClass-page .left43 h2{
+	top: 10%;
+	font-size: 10px;
+	position: relative;
+	color: #aaaaaa;
+	
+}
+#freeClass-page .left43 h3{
+	top: 14%;
+	font-size: 20px;
+	position: relative;
+	color: #1e50ae;
+	
+}
+#freeClass-page .left51{
+	position: absolute;
+	left: 5%;
+	top: 177.8%;
+	width: 275px;
+	height: 200px;
+}
+#freeClass-page .left51 img{
+	width: 275px;
+	height: 153px;
+	position: relative;
+
+}
+#freeClass-page .left51 h1{
+	font-size: 15px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+
+#freeClass-page .left51 h2{
+	top: 10%;
+	font-size: 10px;
+	position: relative;
+	color: #aaaaaa;
+	
+}
+#freeClass-page .left51 h3{
+	top: 14%;
+	font-size: 20px;
+	position: relative;
+	color: #1e50ae;
+	
+}
+
+#freeClass-page .left52{
+	position: absolute;
+	top:177.8%;
+	left: 28%;
+	width: 275px;
+	height: 200px;
+}
+#freeClass-page .left52 img{
+	width: 275px;
+	height: 153px;
+	position: relative;
+
+}
+#freeClass-page .left52 h1{
+	font-size: 15px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+
+#freeClass-page .left52 h2{
+	top: 10%;
+	font-size: 10px;
+	position: relative;
+	color: #aaaaaa;
+	
+}
+#freeClass-page .left52 h3{
+	top: 14%;
+	font-size: 20px;
+	position: relative;
+	color: #1e50ae;
+	
+}
+#freeClass-page .left53{
+	position: absolute;
+	top:177.8%;
+	left: 52%;
+	width: 275px;
+	height: 200px;
+}
+#freeClass-page .left53 img{
+	width: 275px;
+	height: 153px;
+	position: relative;
+
+}
+#freeClass-page .left53 h1{
+	font-size: 15px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+
+#freeClass-page .left53 h2{
+	top: 10%;
+	font-size: 10px;
+	position: relative;
+	color: #aaaaaa;
+	
+}
+#freeClass-page .left53 h3{
+	top: 14%;
+	font-size: 20px;
+	position: relative;
+	color: #1e50ae;
+	
+}
+
+
+#freeClass-page .left54{
+	position: absolute;
+	top:177.8%;
+	left: 76%;
+	width: 275px;
+	height: 200px;
+}
+#freeClass-page .left54 img{
+	width: 275px;
+	height: 153px;
+	position: relative;
+
+}
+#freeClass-page .left54 h1{
+	font-size: 15px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+
+#freeClass-page .left54 h2{
+	top: 10%;
+	font-size: 10px;
+	position: relative;
+	color: #aaaaaa;
+	
+}
+#freeClass-page .left54 h3{
+	top: 14%;
+	font-size: 20px;
+	position: relative;
+	color: #1e50ae;
+	
+}

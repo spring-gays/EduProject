@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*头部样式*/
+#realFight-page .top{
+	position: relative;
+	/* margin-top: 50px; */
+	color: #fff;
+}
+#realFight-page .top img{
+	width: 100%;
+}
+#realFight-page .top p.p1{
+	position: absolute;
+	font-size: 40px;
+	font-weight: bold;
+	top:60px;
+	left: 500px;
+}
+#realFight-page .top p.p2{
+	position: absolute;
+	bottom:40px;
+	left: 560px;
+}
+/*中部样式*/
+#realFight-page .center{
+	width: 95%;
+	min-width: 1250px;
+	height: 120px;
+	margin: 30px auto;
+}
+#realFight-page .center ul{
+	width: 100%;
+	list-style: none;
+}
+#realFight-page .center li{
+	position: relative;
+	float: left;
+	margin-left: 30px;
+}
+#realFight-page .center li p{
+	color: #fff;
+}
+#realFight-page .center li p.p1{
+	position: absolute;
+	top: 20px;
+	left: 90px;
+	font-size: 25px;
+}
+#realFight-page .center li p.p2{
+	position: absolute;
+	bottom: 30px;
+	left: 90px;
+}
+/*内容样式*/
+#realFight-page .bottom{
+	width: 95%;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+#realFight-page .bottom .nav{
+	clear: both;
+	width: 100%;
+	height: 60px;
+	display:inline-block;
+	text-align: center;
+	line-height: 60px;
+}
+#realFight-page .bottom .nav li{
+	width: 18.6%;
+	height: 60px;
+	display: inline-block;
+	font-size: 20px;
+	border: 1px solid #00000021;
+	color: #00000094;
+	
+}
+#realFight-page .bottom .nav li:hover{
+	background-color:#0a45af;
+}
+#realFight-page .bottom .contian{
+	width: 1250px;
+}
+#realFight-page .contain {
+    margin-top: 60px;
+}
+#realFight-page .bottom .contain ul{
+	list-style: none;
+	display: block;
+}
+#realFight-page .bottom .contain li{
+	display: inline-block;
+	width: 22%;
+	height: 280px;
+	margin-left: 25px;
+	margin-bottom: 40px;
+}
+#realFight-page .bottom .contain li img{
+	width: 100%;
+	height: 150px;
+}
+#realFight-page .bottom .contain li a{
+	text-decoration: none;
+	color: black;
+}
+#realFight-page .bottom .contain li p.a{
+	margin-top: 20px;
+	font-size: 15px;
+	
+}
+#realFight-page .bottom .contain li p.b{
+	margin-top: 10px;
+	font-size: 10px;
+	color:#00000066;
+}
+#realFight-page .bottom .contain li p.c{
+	margin-top: 10px;
+	font-size: 20px;
+	color: #21ccf3;
+}
+
+
+
