@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/order.css"/> -->
+</head>
+<style>
+	#chen {}
+
+	img {
+		width: 100%;
+	}
+
+	.orders {
+		width: 900px;
+		background-color: darkslategrey;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: floralwhite;
+		margin-left: calc((100% - 900px)/2);
+	}
+
+	table {
+		text-align: center;
+	}
+
+	table tr {
+		height: 46px;
+	}
+
+	table tr th {
+		width: 120px;
+		height:46px;
+	}
+
+	.total_price {
+		background: #ffffff;
+		font-size: 20px;
+		/* border-radius: 10px; */
+		float: right;
+		margin-top:20px;
+		margin-right:20px;
+	}
+	.total_price div{
+		margin-right:140px;
+		background-color:royalblue;
+		color:white;
+		width:140px;
+		height:36px;
+		border-radius: 10px;
+		text-align: center;
+		font-weight: bold;
+		line-height:36px;
+	}
+	.total_price div span{
+		margin-left:10px;
+		font-weight: normal;
+	}
+</style>
+<body>
+	<div id="chen">
+		<img src="img/2.png" />
+		<div class="orders">
+			<table id="data_table">
+				<tr>
+					<th>产品id</th>
+					<th>产品</th>
+					<th>单价(元)</th>
+					<th>数量</th>
+				</tr>
+			</table>
+		</div>
+		<div class="total_price">
+			<div>支付<span id="pay_price">125</span>元</div>
+		</div>
+	</div>
+</body>
+<script>
+window.onload=function(){
+	console.log('购物车页面获取localstorage',JSON.parse(localStorage.getItem('data')));
+	var url=window.location.search;
+	// var orders=JSON.parse(decodeURI(url.split('=')[1])).orders;
+	var orders=JSON.parse(localStorage.getItem('data')).orders;
+	var tbody=document.getElementById('data_table');
+	var total_price=0;
+	for(var i=0;i<orders.length;i++){
+		total_price=total_price+orders[i].price*orders[i].count;
+		var order=document.createElement('tr');
+		order.innerHTML="<td>"+orders[i].id+"</td><td>"+orders[i].title+"</td><td>"+orders[i].price+"</td><td>"+orders[i].count+"</td>"
+		tbody.appendChild(order);
+	}
+	var pay_price=document.getElementById('pay_price');
+	pay_price.innerText=total_price;
+
+}
+</script>
+</html>
