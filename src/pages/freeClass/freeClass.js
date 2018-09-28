@@ -1,4 +1,4 @@
-window.onload=function(){
+
 	var qianduankaifa=document.getElementById('qianduankaifa');
 	var houduankaifa=document.getElementById('houduankaifa');
 	var yidongkaifa=document.getElementById('yidongkaifa');
@@ -66,4 +66,3 @@ window.onload=function(){
 			hh5.innerHTML = "编程小白入门 ava C++算法与数据结构精讲课程";
 			hh6.innerHTML = "编程小白入门C++远征之起航篇 项目入门必看";
 	}	
-}

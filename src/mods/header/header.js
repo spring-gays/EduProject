@@ -1,5 +1,11 @@
+console.log(document.getElementById('header'));
+var header_as = document.getElementById('header').querySelectorAll('a');
+
+var header_spans = document.getElementById('header').querySelectorAll('span');
+var header_right = document.getElementById('header').querySelector('.header-right');
 window.onload = function () {
     //给所有头部banner添加click事件
+
     for (let i = 0; i < header_as.length; i++) {
         header_as[i].onclick = function () {
             console.log(i);
@@ -21,9 +27,7 @@ var careePath_page = document.getElementById('careePath-page');
 var realFight_page = document.getElementById('realFight-page');
 
 //获取头部banner
-var header_as = document.getElementById('header').querySelectorAll('a');
-var header_spans = document.getElementById('header').querySelectorAll('span');
-var header_right = document.getElementById('header').querySelector('.header-right');
+
 
 function headerBannerClick(str) {
     switch (str) {

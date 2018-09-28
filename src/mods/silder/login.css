@@ -1,0 +1,208 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;}
+
+#zuobox{
+	background: black;
+	width: 35px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+}
+
+#zuobox1{
+	position: absolute;
+	width: 100%;
+	height: 42px;
+	top: 10%;
+}
+
+#tupian1,#tupian2,#tupian3,#tupian4,#tupian5,#tupian6{
+	height: 42px;
+	width: 35px;
+	z-index: 99;
+}
+#zuobox2{
+	position: absolute;
+	width: 100%;
+	height: 42px;
+	top: 20%;
+	background-size:16px 10px;
+}
+#zuobox3{
+	position: absolute;
+	width: 100%;
+	height: 84px;
+	top: 30%;
+	background: black;
+}
+#zuobox3-1{
+	position: absolute;
+	width: 100%;
+	height: 50%;
+}
+#zuobox3-2{
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	top: 50%;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+#zuobox1_1{
+	position: fixed;
+	height: 260px;
+	width: 240px;
+	right: 60px;;
+	top: 10%;
+	background: #FFF;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	display: none;
+	z-index: 99;
+}
+#zuobox4{
+	position: absolute;
+	right: 0;
+	width: 35px;
+	height: 42px;
+	bottom: 30%;
+	background: black;
+	color: white;
+}
+#zuobox5{
+	position: absolute;
+	right: 0;
+	width: 35px;
+	height: 42px;
+	bottom: 20%;
+	background: black;
+	color: white;
+}
+#zuobox1_2{
+	position: absolute;
+	right: 0;
+	width: 35px;
+	height: 42px;
+	bottom: 10%;
+	background: black;
+	color: white;
+}
+
+#denlu1{
+	height: 20%;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#denlu2{
+	position: absolute;
+	height: 60%;
+	width: 80%;
+	top: 20%;
+	left: 10%;
+}
+#zuoboxname{
+	position: absolute;
+	width: 100%;
+	height: 25%;
+	top: 1%;
+	left: 0;
+}
+#zuoboxpassword{
+	position: absolute;
+	width: 100%;
+	height: 25%;
+	top: 34%;
+	left: 0;
+}
+#zuoboxbutton{
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	top: 67%;
+	left: 0;
+	text-align: center;
+	font-size: 30px;
+	background: red;
+	cursor: pointer;
+}
+
+#denlu3{
+	position: absolute;
+	height: 20%;
+	width: 80%;
+	top: 80%;
+	left: 10%;
+	text-align: right;
+}
+
+#memberPwd{
+	background: #fefefe;
+}
+
+#memberAcct{
+	background: #fefefe;
+}
+
+#memberLoginPanel {
+   display: none;
+}
+
+#yanshi1{
+	display: none;
+	position: absolute;
+	height: 42px;
+	width: 117px;
+	right: 105px;
+	top: 10%;
+    background-color: #434343;
+	color: white;
+	line-height: 42px;
+	text-align: center;
+}
+
+#yanshi2{
+	display: none;
+	position: absolute;
+	height: 42px;
+	width: 117px;
+	right: 105px;
+	top: 20%;
+    background-color: #434343;
+	color: white;
+	line-height: 42px;
+	text-align: center;
+}
+
+#yanshi3{
+	display: none;
+	position: absolute;
+	height: 42px;
+	width: 117px;
+	right: 105px;
+	bottom: 10%;
+    background-color: #434343;
+	color: white;
+	line-height: 42px;
+	text-align: center;
+}
+
+#yanshi4{
+	display: none;
+	position: absolute;
+	height: 42px;
+	width: 117px;
+	right: 105px;
+	bottom: 30%;
+    background-color: #434343;
+	color: white;
+	line-height: 42px;
+	text-align: center;
+}

@@ -5,6 +5,16 @@
 body {
   font-family: 微软雅黑;
 }
+#sider-page {
+  background: black;
+	width: 35px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+}
 #main-page{
   color: #fff;
 }

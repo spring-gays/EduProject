@@ -1,0 +1,108 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+#zhucebox1{
+	width: 100%;
+	height: 120px;
+	position: relative;
+}
+
+#zhuceboxi_1{
+	width: 40%;
+	min-width: 440px;
+	height: 50%;
+	margin-left: 50px;
+	margin-top: 60px;
+	line-height: 50%;
+	color: blue;
+	font-size: 32px;
+	white-space: nowrap;
+	text-align: center;
+}
+
+#zhucebox1_2{
+	width: 50%;
+	min-width: 550px;
+	height: 50%;
+	margin-left: 700px;
+	margin-top: -60px;
+	line-height: 50%;
+	font-size: 14px;
+	white-space: nowrap;
+	text-align: center;
+}
+
+#zhucebox1_2 #zhucebox1_2_1{
+	float: left;
+	margin: 0 4%;
+}
+
+#zhucebox2{
+	background: url(../../images/regresBg.png);
+	width: 100%;
+	height: 250px;
+	position: relative;
+	margin-top: -60px;
+}
+
+#zhucebox2 #zhucebox2_1{
+	display: block;
+	width: 40%;
+	min-width: 440px;
+	height: 50px;
+    padding-top: 80px;
+    margin-left: 30%;
+	line-height: 100%;
+	color: blue;
+	font-size: 32px;
+	white-space: nowrap;
+}
+
+#zhucebox2 #zhucebox2_2{
+	display: block;
+	width: 40%;
+	min-width: 440px;
+	height: 40px;
+	padding-bottom: 80px;
+    margin-left: 30%;
+	line-height: 100%;
+	color: blue;
+	font-size: 18px;
+	white-space: nowrap;
+}
+
+#form{
+	width: 380px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#formdiv{
+	height: 40px;
+	width: 380px;
+}
+label{
+	margin: 0;padding: 0;
+}
+#label{
+	display: block;
+	height: 40px;
+	width: 95px;
+	text-align: right;
+	float: left;
+}
+
+#message{
+	display: block;
+	height: 60px;
+	width: 173px;
+	float: left;
+}
+
