@@ -1,0 +1,70 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+
+img{
+	width: 100%;
+}
+
+#inva{
+	width: 100%;
+	height: 100px;
+}
+#innva{
+	width: 80%;
+	height: 50px;
+	left: 10%;
+	position: absolute;
+	margin: 30px auto;
+}
+#innva span{
+	margin-left: 150px;
+	font-size: 20px;
+}
+#sdetail{
+	width: 80%;
+	height: 200px;
+	left: 10%;
+	margin: 0 auto;
+}
+#spitem{
+	height: 50px;
+	background: gainsboro;
+	position: relative;
+}
+#spitem input{
+	position: absolute;
+	top: 20px;
+	left: 5%;
+}
+#spitem span{
+	position: absolute;
+	top: 13px;
+	left: 8%;
+}
+
+#ibindex{
+	height: 150px;
+}
+#ibindex table tr td{
+	width: 218px;
+	height: 150px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
