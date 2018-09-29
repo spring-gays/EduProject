@@ -1,202 +1,238 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="css/courseDetail.css"/>
-		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 
-		
-	</head>
-	<body>
-		<div id="box">
-			<img id="head" src="img/2.png"/>
-			<div id="wrap">
-					<div style="display:none" class="react-success"><img src='img/cartaddsuccess.png'/></div>
-				<div id="c">
-					<div id="cimg">
-						<img src="img/1.png"/>
-					</div>
-					<div id="detail">
-						<div id="title">
-							<p>ThinkPHP 5.0开发微信小程序商场打通全 栈项目架构</p>
-						</div>
-						<div id="price">
-							<span>价格：</span><span>￥</span><span>299.00</span>&nbsp;<span id="pass">￥0.00</span>
-							<hr />
-						</div>
-						
-						<div id="crisis">
-							<span>评论：</span><span>0</span><span>条</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>收藏：</span><span>0</span>
-							<hr />
-						</div>
-						
-						<div id="buycount">
-							<div id="a"><span>购买数量：</span></div>
-							<div id="b"><input type="text" id="incount" value="1" /></div>
-							<div id="d">
-								<input type="button" name="add" id="add"/>
-								<input type="button" name="sub" id="sub"/>
-							</div>
-						</div>
-						
-						<div id="choice">
-							<button id="addCart" type="button" class="btn btn-light" style="color: #003399; border: 1px solid #003399; background-color: white;"><img src="img/cart.png" />&nbsp;加入购物车</button>
-							<button id="buy" type="button" class="btn btn-primary" style="background-color: #003399; border: 1px solid #003399;">立即购买</button>
-						</div>
-						<div id="promise">
-							<img src="img/promise.png"/>
-						</div>
-					</div>
-				</div>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/courseDetail.css" />
+	<link rel="stylesheet" type="text/css" href="../silder/login.css" />
+	<link rel="stylesheet" type="text/css" href="../silder/webRightBar.min.css" />
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	 crossorigin="anonymous"></script>
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+
+	<!-- <link rel="stylesheet" type="text/css" href="../silder/"/> -->
+</head>
+<style>
+	/* #side-page {
+		position: fixed;
+		right: 0;
+	} */
+</style>
+
+<body>
+	<div id="side-page">
+				<!-- #include file="../silder/sider.html" -->
+	</div>
+	<div id="box">
+		<img id="head" src="img/2.png" />
+		<div id="wrap">
+			<div style="display:none" class="react-success">
+				<img src='img/cartaddsuccess.png' />
 			</div>
-			
-			<div id="e">
-				<div id="coll">
-					<div id="collimg">
-						<span class="like">&#10084;</span>&nbsp;&nbsp;<span>收藏</span>
-					</div>
+			<div id="c">
+				<div id="cimg">
+					<img src="img/1.png" />
 				</div>
-				<div id="share">
-					<div id="shareimg">
-						<img src="img/shareimg.png"/>
-						<span>分享</span>
-						<div id="shareapp">
-							<img src="img/wc.png" title="分享到微信"/>
-							<img src="img/wb.png" title="分享到微博"/>
-							<img src="img/wq.png" title="分享到QQ"/>
+				<div id="detail">
+					<div id="title">
+						<p>ThinkPHP 5.0开发微信小程序商场打通全 栈项目架构</p>
+					</div>
+					<div id="price">
+						<span>价格：</span>
+						<span>￥</span>
+						<span>299.00</span>&nbsp;
+						<span id="pass">￥0.00</span>
+						<hr />
+					</div>
+
+					<div id="crisis">
+						<span>评论：</span>
+						<span>0</span>
+						<span>条</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<span>收藏：</span>
+						<span>0</span>
+						<hr />
+					</div>
+
+					<div id="buycount">
+						<div id="a">
+							<span>购买数量：</span>
+						</div>
+						<div id="b">
+							<input type="text" id="incount" value="1" />
+						</div>
+						<div id="d">
+							<input type="button" name="add" id="add" />
+							<input type="button" name="sub" id="sub" />
 						</div>
 					</div>
-				</div>
-				<div id="help">
-					<div id="helpimg">
-						<img src="img/helpimg.png"/>
-						<span>在线客服</span>
-						<div id="helpapp">
-							<img src="img/h.png" title="客服电话"/>
-							<a href="">客服电话</a>
-						</div>
+
+					<div id="choice">
+						<button id="addCart" type="button" class="btn btn-light" style="color: #003399; border: 1px solid #003399; background-color: white;">
+							<img src="img/cart.png" />&nbsp;加入购物车</button>
+						<button id="buy" type="button" class="btn btn-primary" style="background-color: #003399; border: 1px solid #003399;">立即购买</button>
 					</div>
-				</div>
-			</div>
-			<div id="f">
-				<nav>
-				  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-				    <a  style="color: #003399;" class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">产品详情</a>
-				    <a  style="color: #003399;" class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">产品评论（0）</a>
-				    <a  style="color: #003399;" class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">销售记录（0）</a>
-				  </div>
-				</nav>
-				<br />
-				<br />
-				<div class="tab-content" id="nav-tabContent">
-				  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-				  	<table class="table table-striped">
-					    <tr>
-					      <td>课程类型</td>
-					      <td>授课老师</td>
-					      <td>课程节数</td>
-					      <td>课程</td>
-					    </tr>
-					    <tr>
-					      <td>实战   初级</td>
-					      <td>陈老师</td>
-					      <td>15课时</td>
-					      <td>编程</td>
-					    </tr>
-					</table>
-				  </div>
-				  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-				  	<div id="pCrisis">
-				      <div class="input-group mb-3">
-						  <div class="input-group-prepend">
-						    <span class="input-group-text" id="inputGroup-sizing-default">评星：</span>
-						  </div>
-						  <span style="width: 30px;"></span>
-						  <ul class="cleanfloat">
-					       	<li>&#9733;</li>
-					        <li>&#9733;</li>
-					        <li>&#9733;</li>
-					        <li>&#9733;</li>
-					        <li>&#9733;</li>
-					      </ul>
-						</div>
-				      
-				      	<div class="input-group mb-3">
-						  <div class="input-group-prepend">
-						    <span class="input-group-text" id="inputGroup-sizing-default">昵称：</span>
-						  </div>
-						  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
-						</div>
-				      
-				      	<div class="input-group">
-						  <div class="input-group-prepend">
-						    <span class="input-group-text">评论内容：</span>
-						  </div>
-						  <textarea class="form-control" aria-label="With textarea"></textarea>
-						</div>
-						<br />
-						<div class="input-group mb-3">
-						  <div class="input-group-prepend">
-						    <span class="input-group-text" id="inputGroup-sizing-default">上传图片：</span>
-						  </div>
-						  <input type="file" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
-						</div>
-						<br />
-							<button id="sbt" type="button" class="btn btn-primary" style="background-color: #003399; border: 1px solid #003399; position: absolute; left: 500px;">提交评论</button>
-				  	</div>
-				  </div>
-				  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-				  	<table class="table table-striped">
-					  <tbody>
-					    <tr>
-					      <td>买家</td>
-					      <td>选项信息</td>
-					      <td>数量</td>
-					      <td>成交时间</td>
-					    </tr>
-					    <tr>
-					      <td>实战   初级</td>
-					      <td>陈老师</td>
-					      <td>15课时</td>
-					      <td>编程</td>
-					    </tr>
-					  </tbody>
-					</table>
-				  </div>
+					<div id="promise">
+						<img src="img/promise.png" />
+					</div>
 				</div>
 			</div>
 		</div>
-		<script src="js/courseDetail.js" type="text/javascript" charset="utf-8"></script>
-	</body>
-	
-	<script>
-        $(function () {            
-            $(".like").click(function () {
-                $(this).toggleClass('cs');                
-            })
-        })
-        
-        $(function () {
-	        $("ul li").hover(function(){
-	            $(this).addClass('hs');
-	            $(this).prevAll().addClass('hs');
-	        },function(){
-	            $(this).removeClass('hs');
-	            $(this).prevAll().removeClass('hs');
-	        })
-	
-	        $("ul li").click(function () {
-	            $(this).addClass('ss');
-	            $(this).prevAll().addClass('ss');
-	            $(this).nextAll().removeClass('ss');
-	        })
-	    })
-        
-    </script>
-	
+
+		<div id="e">
+			<div id="coll">
+				<div id="collimg">
+					<span class="like">&#10084;</span>&nbsp;&nbsp;
+					<span>收藏</span>
+				</div>
+			</div>
+			<div id="share">
+				<div id="shareimg">
+					<img src="img/shareimg.png" />
+					<span>分享</span>
+					<div id="shareapp">
+						<img src="img/wc.png" title="分享到微信" />
+						<img src="img/wb.png" title="分享到微博" />
+						<img src="img/wq.png" title="分享到QQ" />
+					</div>
+				</div>
+			</div>
+			<div id="help">
+				<div id="helpimg">
+					<img src="img/helpimg.png" />
+					<span>在线客服</span>
+					<div id="helpapp">
+						<img src="img/h.png" title="客服电话" />
+						<a href="">客服电话</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="f">
+			<nav>
+				<div class="nav nav-tabs" id="nav-tab" role="tablist">
+					<a style="color: #003399;" class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+					 aria-controls="nav-home" aria-selected="true">产品详情</a>
+					<a style="color: #003399;" class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+					 aria-controls="nav-profile" aria-selected="false">产品评论（0）</a>
+					<a style="color: #003399;" class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+					 aria-controls="nav-contact" aria-selected="false">销售记录（0）</a>
+				</div>
+			</nav>
+			<br />
+			<br />
+			<div class="tab-content" id="nav-tabContent">
+				<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+					<table class="table table-striped">
+						<tr>
+							<td>课程类型</td>
+							<td>授课老师</td>
+							<td>课程节数</td>
+							<td>课程</td>
+						</tr>
+						<tr>
+							<td>实战 初级</td>
+							<td>陈老师</td>
+							<td>15课时</td>
+							<td>编程</td>
+						</tr>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+					<div id="pCrisis">
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="inputGroup-sizing-default">评星：</span>
+							</div>
+							<span style="width: 30px;"></span>
+							<ul class="cleanfloat">
+								<li>&#9733;</li>
+								<li>&#9733;</li>
+								<li>&#9733;</li>
+								<li>&#9733;</li>
+								<li>&#9733;</li>
+							</ul>
+						</div>
+
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="inputGroup-sizing-default">昵称：</span>
+							</div>
+							<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+						</div>
+
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text">评论内容：</span>
+							</div>
+							<textarea class="form-control" aria-label="With textarea"></textarea>
+						</div>
+						<br />
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="inputGroup-sizing-default">上传图片：</span>
+							</div>
+							<input type="file" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+						</div>
+						<br />
+						<button id="sbt" type="button" class="btn btn-primary" style="background-color: #003399; border: 1px solid #003399; position: absolute; left: 500px;">提交评论</button>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+					<table class="table table-striped">
+						<tbody>
+							<tr>
+								<td>买家</td>
+								<td>选项信息</td>
+								<td>数量</td>
+								<td>成交时间</td>
+							</tr>
+							<tr>
+								<td>实战 初级</td>
+								<td>陈老师</td>
+								<td>15课时</td>
+								<td>编程</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/courseDetail.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="../silder/login.js"></script>
+</body>
+
+<script>
+	$(function () {
+		$(".like").click(function () {
+			$(this).toggleClass('cs');
+		})
+	})
+
+	$(function () {
+		$("ul li").hover(function () {
+			$(this).addClass('hs');
+			$(this).prevAll().addClass('hs');
+		}, function () {
+			$(this).removeClass('hs');
+			$(this).prevAll().removeClass('hs');
+		})
+
+		$("ul li").click(function () {
+			$(this).addClass('ss');
+			$(this).prevAll().addClass('ss');
+			$(this).nextAll().removeClass('ss');
+		})
+	})
+
+</script>
+
 </html>

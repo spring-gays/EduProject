@@ -15,6 +15,20 @@ var scrtime;
 
 console.log(JSON.parse(localStorage.getItem("userInfo")));
 
+var shopcart=document.getElementById('zuobox3-1');
+shopcart.onclick=function(){
+    var url=window.location.href;
+    console.log(url);
+    if(url.indexOf('class-detail')!=-1){
+        window.open('order.html');
+    }
+    else{
+        window.open('../mods/class-details/order.html')
+    }
+    // window.location='localhost/mods/class-detail/order.html';
+    // window.navigate("127.0.0.1/mods/class-detail/order.html")
+}
+
 // mouse1.onmouseover=function(){
 //     clearInterval(scrtime);
 //     mouse1_1.style.display='block';
@@ -53,45 +67,45 @@ console.log(JSON.parse(localStorage.getItem("userInfo")));
 //     mouse2_1.style.right=105+'px';
 // }
 
-mouse3.onmouseover=function(){
-    clearInterval(scrtime);
-    mouse3_1.style.display='block';
-    var i=105;
-    scrtime=setInterval(function(){
-        i-=5;
-        if(i<=35){
-            i=35;
-            clearInterval(scrtime);
-        }
-        mouse3_1.style.right=i+'px';
-    },50)
-}
+// mouse3.onmouseover=function(){
+//     clearInterval(scrtime);
+//     mouse3_1.style.display='block';
+//     var i=105;
+//     scrtime=setInterval(function(){
+//         i-=5;
+//         if(i<=35){
+//             i=35;
+//             clearInterval(scrtime);
+//         }
+//         mouse3_1.style.right=i+'px';
+//     },50)
+// }
 
-mouse3.onmouseout=function(){
-    clearInterval(scrtime);
-    mouse3_1.style.display='none';
-    mouse3_1.style.right=105+'px';
-}
+// mouse3.onmouseout=function(){
+//     clearInterval(scrtime);
+//     mouse3_1.style.display='none';
+//     mouse3_1.style.right=105+'px';
+// }
 
-mouse4.onmouseover=function(){
-    clearInterval(scrtime);
-    mouse4_1.style.display='block';
-    var i=105;
-    scrtime=setInterval(function(){
-        i-=5;
-        if(i<=35){
-            i=35;
-            clearInterval(scrtime);
-        }
-        mouse4_1.style.right=i+'px';
-    },50)
-}
+// mouse4.onmouseover=function(){
+//     clearInterval(scrtime);
+//     mouse4_1.style.display='block';
+//     var i=105;
+//     scrtime=setInterval(function(){
+//         i-=5;
+//         if(i<=35){
+//             i=35;
+//             clearInterval(scrtime);
+//         }
+//         mouse4_1.style.right=i+'px';
+//     },50)
+// }
 
-mouse4.onmouseout=function(){
-    clearInterval(scrtime);
-    mouse4_1.style.display='none';
-    mouse4_1.style.right=105+'px';
-}
+// mouse4.onmouseout=function(){
+//     clearInterval(scrtime);
+//     mouse4_1.style.display='none';
+//     mouse4_1.style.right=105+'px';
+// }
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 //放回顶部~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
